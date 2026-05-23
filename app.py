@@ -211,19 +211,7 @@ You represent {business}. Every response reflects the brand."""
 
 @app.route("/", methods=["GET"])
 def home():
-    logs = load_json(LOG_FILE, [])
-    memory = load_json(MEMORY_FILE, {})
-    training = load_training()
-    return jsonify({
-        "name": "Daizy",
-        "status": "alive",
-        "stage": "infant",
-        "version": "1.0.0",
-        "base_knowledge": len(training),
-        "lessons_learned": len(memory.get("lessons", [])),
-        "interactions": len(logs),
-        "message": "I am Daizy. I am learning. Talk to me."
-    })
+    return send_from_directory(".", "index.html")
 
 @app.route("/chat", methods=["POST"])
 def chat():
