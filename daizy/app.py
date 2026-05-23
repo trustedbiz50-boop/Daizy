@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
 
@@ -211,6 +211,10 @@ You represent {business}. Every response reflects the brand."""
 
 @app.route("/", methods=["GET"])
 def home():
+    return send_from_directory(".", "index.html")
+# Status — returns JSON info
+@app.route("/status", methods=["GET"])
+def status():
     logs = load_json(LOG_FILE, [])
     memory = load_json(MEMORY_FILE, {})
     training = load_training()
@@ -224,6 +228,7 @@ def home():
         "interactions": len(logs),
         "message": "I am Daizy. I am learning. Talk to me."
     })
+
 
 @app.route("/chat", methods=["POST"])
 def chat():
