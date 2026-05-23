@@ -102,7 +102,7 @@ def find_best_match(user_input, training_data):
             best_score = score
             best_answer = item["output"]
 
-    if best_score > 0.65:
+    if best_score > 0.85:
         return best_answer
     return None
 
