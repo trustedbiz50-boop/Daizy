@@ -116,12 +116,36 @@ def ask_groq(user_message, context=""):
         system += f"\n\nRelevant knowledge from your training:\n{context}"
 
     try:
+        def ask_groq(user_message, context=""):
+    if not GROQ_API_KEY:
+        return None
+    system = DAIZY_SYSTEM
+    if context:
+        system += f"\n\nRelevant knowledge:\n{context}"
+    try:
         res = requests.post(
-            GROQ_URL,
+            "https://api.groq.com/openai/v1/chat/completions",
             headers={
                 "Authorization": f"Bearer {GROQ_API_KEY}",
                 "Content-Type": "application/json"
             },
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user_message}
+                ],
+                "max_tokens": 512,
+                "temperature": 0.7
+            },
+            timeout=25
+        )
+        if res.status_code != 200:
+            return None
+        return res.json()["choices"][0]["message"]["content"]
+    except:
+        return None
+        
             json={
                 "model": GROQ_MODEL,
                 "messages": [
