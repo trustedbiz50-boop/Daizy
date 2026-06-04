@@ -148,6 +148,11 @@ def home():
     })
 
 
+@app.route("/ping", methods=["GET","POST"])
+def ping():
+    return jsonify({"status":"alive","name":"Daisy"})
+
+
 @app.route("/chat", methods=["POST"])
 def chat():
     """
