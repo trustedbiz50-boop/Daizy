@@ -1432,4 +1432,62 @@
 {"input":"If 20% of people buy product, what does it mean?","output":"Step 1: Out of 100 people, 20 buy\nStep 2: 80 do not buy\nConclusion: conversion rate is 20%"},
 
 {"input":"A business breaks even at 100k costs and 100k revenue. What does this mean?","output":"Step 1: Revenue = Cost\nStep 2: Profit = 0\nConclusion: no loss, no profit (break-even point)"},
+  {"input":"User says: My name is Kevin","output":"Memory stored: user name = Kevin"},
+{"input":"User says: I live in Kampala","output":"Memory stored: user location = Kampala"},
+{"input":"User says: I run a clothing business","output":"Memory stored: user business = clothing business"},
+{"input":"User says: I prefer short answers","output":"Memory stored: user preference = short answers"},
+{"input":"User says: I want detailed explanations","output":"Memory updated: user preference = detailed explanations"},
+
+{"input":"What is my name? (after memory stored)","output":"Your name is Kevin"},
+{"input":"Where do I live? (after memory stored)","output":"You are based in Kampala"},
+{"input":"What do I do? (after memory stored)","output":"You run a clothing business"},
+{"input":"Give me advice for my business","output":"Since you run a clothing business, focus on strong visuals, TikTok marketing, and trust building through customer reviews."},
+
+{"input":"User says: I like simple explanations","output":"Memory stored: explanation style = simple"},
+{"input":"Explain AI","output":"AI is technology that allows machines to perform tasks like thinking and learning in a simple way."},
+
+{"input":"User says: I am a student","output":"Memory stored: user role = student"},
+{"input":"Give study advice","output":"Since you are a student, focus on consistent study time, practice questions, and reviewing mistakes."},
+
+{"input":"User says: I want to start a business","output":"Memory stored: goal = start business"},
+{"input":"What should I do next?","output":"Since your goal is to start a business, first choose a product or service, then identify your customers."},
+
+{"input":"User says: I have no money","output":"Memory stored: budget = low"},
+{"input":"Business idea for me","output":"Since your budget is low, consider service-based businesses like freelancing or reselling with mobile money support."},
+
+{"input":"User says: I prefer fast answers","output":"Memory updated: response style = fast/short"},
+{"input":"Explain blockchain","output":"Blockchain is a secure digital system for storing records in blocks that cannot be easily changed."},
+
+{"input":"User says: I am learning coding","output":"Memory stored: interest = coding"},
+{"input":"Help me learn programming","output":"Since you are learning coding, start with Python basics like variables, loops, and functions."},
+
+{"input":"User says: Forget my name","output":"Memory updated: remove user name from memory"},
+{"input":"User says: Reset everything","output":"Memory cleared: all stored user preferences removed"},
+
+{"input":"User asks: Do you remember me?","output":"Yes, I can remember key details like your preferences and goals if they were stored."},
+
+{"input":"User asks: What did I tell you before?","output":"I can recall relevant details from previous conversations if they were saved as memory."},
+
+{"input":"User says: I want business help in Uganda","output":"Memory stored: interest = Uganda business support"},
+{"input":"Business advice","output":"Since you are interested in Uganda business, mobile money services, small retail, and digital marketing are strong opportunities."},
+
+{"input":"User says: I like detailed business plans","output":"Memory updated: preference = detailed business planning"},
+{"input":"Create plan","output":"I will create a structured, step-by-step business plan for you."},
+
+{"input":"User says: I am in debt","output":"Memory stored: financial situation = debt"},
+{"input":"Advice","output":"Since you are in debt, focus on quick cash-flow activities like services or small trading before scaling."},
+
+{"input":"User says: I want to grow online","output":"Memory stored: goal = online growth"},
+{"input":"Marketing advice","output":"Focus on social media content, consistency, and building trust with your audience."},
+
+{"input":"User says: I sell food","output":"Memory stored: business type = food business"},
+{"input":"Increase sales","output":"Since you sell food, focus on location visibility, delivery options, and daily social media posts."},
+
+{"input":"User says: I changed my business","output":"Memory updated: business type changed"},
+{"input":"User says: I now sell electronics","output":"Memory updated: business type = electronics"},
+{"input":"Business advice","output":"Since you sell electronics, focus on warranties, trust signals, and competitive pricing."},
+
+{"input":"User asks: What do you know about me?","output":"I know only what you have shared and stored as memory, such as your goals, preferences, and business type."},
+
+{"input":"User says: Don't remember anything about me","output":"Memory cleared: all user data removed and reset to default state"},
 ]
