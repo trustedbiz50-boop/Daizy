@@ -1393,4 +1393,43 @@
 
 {"input":"What is runtime?","output":"Runtime is when a program is executing."},
 {"input":"What is compile time?","output":"Compile time is when code is being translated into executable form."},
+  {"input":"Solve: If a phone costs 200,000 UGX and discount is 10%, what is final price?","output":"Step 1: Find 10% of 200,000 = 20,000\nStep 2: Subtract discount: 200,000 - 20,000 = 180,000 UGX\nFinal answer: 180,000 UGX"},
+{"input":"A trader buys goods at 50,000 UGX and sells at 70,000 UGX. What is profit?","output":"Step 1: Selling price = 70,000\nStep 2: Buying price = 50,000\nStep 3: Profit = 70,000 - 50,000 = 20,000 UGX"},
+{"input":"If 3 items cost 15,000 UGX, what is price of 1 item?","output":"Step 1: Total cost = 15,000 UGX\nStep 2: Divide by 3 items\nStep 3: 15,000 ÷ 3 = 5,000 UGX per item"},
+{"input":"Which is better: earning 100k daily or 2M monthly?","output":"Step 1: Convert monthly to daily: 2,000,000 ÷ 30 ≈ 66,667\nStep 2: Compare 100,000 vs 66,667\nStep 3: 100k daily is better in short-term income"},
+{"input":"If you save 10,000 UGX daily, how much in 30 days?","output":"Step 1: Daily saving = 10,000 UGX\nStep 2: Multiply by 30 days\nStep 3: 10,000 × 30 = 300,000 UGX"},
+
+{"input":"A business has revenue 500,000 and costs 350,000. What is profit?","output":"Step 1: Revenue = 500,000\nStep 2: Costs = 350,000\nStep 3: Profit = 500,000 - 350,000 = 150,000 UGX"},
+{"input":"If a product price increases from 20,000 to 25,000, what is percentage increase?","output":"Step 1: Increase = 25,000 - 20,000 = 5,000\nStep 2: (5,000 ÷ 20,000) × 100 = 25%\nFinal answer: 25% increase"},
+
+{"input":"A man walks 10km in 2 hours. What is speed?","output":"Step 1: Distance = 10km\nStep 2: Time = 2 hours\nStep 3: Speed = 10 ÷ 2 = 5 km/h"},
+{"input":"If 5 workers finish a job in 10 days, how long will 10 workers take?","output":"Step 1: More workers = faster completion\nStep 2: 10 workers is double 5 workers\nStep 3: Time reduces by half = 5 days"},
+
+{"input":"Choose best option: A earns 300k weekly, B earns 1.2M monthly","output":"Step 1: Convert monthly to weekly: 1,200,000 ÷ 4 ≈ 300,000\nStep 2: Compare 300k vs 300k\nStep 3: They are equal income-wise"},
+{"input":"If I invest 100,000 at 10% monthly return, what is profit?","output":"Step 1: 10% of 100,000 = 10,000\nStep 2: Monthly profit = 10,000 UGX"},
+
+{"input":"A phone is bought at 400,000 and sold at 380,000. Profit or loss?","output":"Step 1: Selling price = 380,000\nStep 2: Buying price = 400,000\nStep 3: Loss = 400,000 - 380,000 = 20,000 UGX"},
+
+{"input":"If a shop sells 50 items daily at 2,000 each, daily revenue?","output":"Step 1: 50 × 2,000 = 100,000 UGX per day"},
+{"input":"Monthly revenue from 100,000 daily sales?","output":"Step 1: 100,000 × 30 = 3,000,000 UGX per month"},
+
+{"input":"If probability of rain is 0.3, what is no rain probability?","output":"Step 1: Total probability = 1\nStep 2: 1 - 0.3 = 0.7\nFinal answer: 0.7"},
+{"input":"If 2 outcomes are equally likely, probability of one?","output":"Step 1: Total = 2 outcomes\nStep 2: Probability = 1/2 = 0.5"},
+
+{"input":"A shop reduces price from 80,000 to 60,000. Discount %?","output":"Step 1: Discount = 20,000\nStep 2: (20,000 ÷ 80,000) × 100 = 25%\nFinal answer: 25% discount"},
+
+{"input":"If you double money every day for 3 days starting with 1,000?","output":"Step 1: Day 1 = 1,000\nStep 2: Day 2 = 2,000\nStep 3: Day 3 = 4,000\nFinal answer: 4,000 UGX"},
+{"input":"Which grows faster: linear or exponential?","output":"Step 1: Linear grows by constant amount\nStep 2: Exponential grows by multiplication\nStep 3: Exponential is faster long-term"},
+
+{"input":"If fuel price increases 15%, and original is 5,000 UGX, new price?","output":"Step 1: 15% of 5,000 = 750\nStep 2: 5,000 + 750 = 5,750 UGX"},
+
+{"input":"A student scores 60/100. What is percentage?","output":"Step 1: (60 ÷ 100) × 100 = 60%\nFinal answer: 60%"},
+
+{"input":"If 4 pens cost 12,000 UGX, cost of 1 pen?","output":"Step 1: 12,000 ÷ 4 = 3,000 UGX per pen"},
+
+{"input":"Compare: earning 500k weekly vs 2M monthly","output":"Step 1: 2M monthly ÷ 4 ≈ 500k weekly\nStep 2: They are equal income-wise"},
+
+{"input":"If 20% of people buy product, what does it mean?","output":"Step 1: Out of 100 people, 20 buy\nStep 2: 80 do not buy\nConclusion: conversion rate is 20%"},
+
+{"input":"A business breaks even at 100k costs and 100k revenue. What does this mean?","output":"Step 1: Revenue = Cost\nStep 2: Profit = 0\nConclusion: no loss, no profit (break-even point)"},
 ]
