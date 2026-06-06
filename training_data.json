@@ -1490,4 +1490,59 @@
 {"input":"User asks: What do you know about me?","output":"I know only what you have shared and stored as memory, such as your goals, preferences, and business type."},
 
 {"input":"User says: Don't remember anything about me","output":"Memory cleared: all user data removed and reset to default state"},
+  {"input":"Solve: 5 + 5 = 12","output":"Step 1: Check calculation\n5 + 5 = 10\nStep 2: Compare with given answer (12)\nStep 3: 12 is incorrect\nCorrect answer: 10"},
+{"input":"User says: 10 × 2 = 25","output":"Step 1: Calculate 10 × 2 = 20\nStep 2: Compare with 25\nStep 3: 25 is incorrect\nCorrect answer: 20"},
+{"input":"Is 15% of 200 = 50?","output":"Step 1: 15% of 200 = (15/100) × 200 = 30\nStep 2: Compare with 50\nStep 3: 50 is incorrect\nCorrect answer: 30"},
+
+{"input":"AI response: Water boils at 50°C","output":"Step 1: Check known fact\nWater boils at 100°C at sea level\nStep 2: Compare values\n50°C is incorrect\nCorrect answer: 100°C"},
+
+{"input":"User says: Profit = cost + selling price","output":"Step 1: Check formula\nProfit = selling price - cost\nStep 2: Compare with user statement\nUser statement is incorrect\nCorrect formula: Profit = selling price - cost"},
+
+{"input":"If answer is uncertain, what should you do?","output":"Step 1: Identify uncertainty\nStep 2: Do not guess\nStep 3: Ask for clarification or state uncertainty clearly"},
+
+{"input":"User asks: 100 ÷ 0 = ?","output":"Step 1: Division by zero is undefined\nStep 2: Check math rules\nStep 3: Cannot divide by zero\nFinal answer: Undefined"},
+
+{"input":"AI gave two different answers earlier","output":"Step 1: Compare both answers\nStep 2: Check logic and correctness\nStep 3: Keep correct answer and discard wrong one"},
+
+{"input":"How to improve an answer?","output":"Step 1: Check correctness\nStep 2: Improve clarity\nStep 3: Remove unnecessary information\nStep 4: Reformat for better understanding"},
+
+{"input":"User says: I think 2 + 2 = 5","output":"Step 1: Calculate 2 + 2 = 4\nStep 2: Compare with user answer\nStep 3: User answer is incorrect\nCorrect answer: 4"},
+
+{"input":"AI response: The sun is a planet","output":"Step 1: Verify fact\nSun is a star, not a planet\nStep 2: Identify error\nStatement is incorrect\nCorrect answer: The sun is a star"},
+
+{"input":"What if multiple answers are possible?","output":"Step 1: Identify valid possibilities\nStep 2: Present all correct options\nStep 3: Explain conditions for each answer"},
+
+{"input":"User asks: Which is better A or B?","output":"Step 1: Identify criteria\nStep 2: Compare based on purpose\nStep 3: Give best option with reasoning\nStep 4: State conditions where each is better"},
+
+{"input":"AI answer seems too long","output":"Step 1: Identify unnecessary details\nStep 2: Keep only key points\nStep 3: Rewrite shorter version"},
+
+{"input":"AI answer is too short","output":"Step 1: Identify missing details\nStep 2: Expand explanation with steps\nStep 3: Add clarity examples"},
+
+{"input":"User asks something unclear","output":"Step 1: Detect ambiguity\nStep 2: Do not assume\nStep 3: Ask clarification question"},
+
+{"input":"User request may be wrong assumption","output":"Step 1: Identify assumption\nStep 2: Verify correctness\nStep 3: Correct assumption before answering"},
+
+{"input":"How to handle contradiction?","output":"Step 1: Detect conflicting statements\nStep 2: Compare logic\nStep 3: Choose correct one based on evidence"},
+
+{"input":"User says: I paid 0 but got refund of 10,000 profit","output":"Step 1: Check logic\nRefund does not create profit\nStep 2: Identify inconsistency\nStep 3: Ask for clarification"},
+
+{"input":"AI should never guess","output":"Step 1: If uncertain, do not guess\nStep 2: State limitation or ask for more information"},
+
+{"input":"User asks: 1 kg is heavier than 1000g?","output":"Step 1: Convert units\n1 kg = 1000g\nStep 2: Compare\nThey are equal\nFinal answer: They are equal"},
+
+{"input":"User gives wrong math formula","output":"Step 1: Identify correct formula\nStep 2: Replace wrong one\nStep 3: Explain correction briefly"},
+
+{"input":"How to ensure accuracy?","output":"Step 1: Verify facts\nStep 2: Check logic steps\nStep 3: Cross-check final answer"},
+
+{"input":"User asks: Is 0.1 bigger than 0.01?","output":"Step 1: Compare decimals\n0.1 = 0.10\n0.10 > 0.01\nFinal answer: 0.1 is bigger"},
+
+{"input":"AI made mistake in previous answer","output":"Step 1: Identify error\nStep 2: Correct it clearly\nStep 3: Provide final corrected answer"},
+
+{"input":"How should AI respond when wrong?","output":"Step 1: Acknowledge error\nStep 2: Correct information\nStep 3: Provide accurate final answer"},
+
+{"input":"User asks: Should I always trust AI?","output":"Step 1: Evaluate limitation\nAI can make mistakes\nStep 2: Recommend verification for important decisions"},
+
+{"input":"What is verification?","output":"Step 1: Checking information using reliable logic or sources\nStep 2: Ensuring correctness before acceptance"},
+
+{"input":"When to stop reasoning?","output":"Step 1: When answer is verified and consistent\nStep 2: When no contradictions remain"},
 ]
