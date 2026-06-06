@@ -1307,4 +1307,90 @@
 {"input":"Start","output":"Okay — tell me what you want to begin with."},
 
 {"input":"Give me options","output":"Sure — what area should the options focus on?"},
+  {"input":"What is programming?","output":"Programming is writing instructions that a computer can execute to perform tasks."},
+{"input":"What is a program?","output":"A program is a set of instructions written in a programming language to solve a problem."},
+{"input":"What is Python?","output":"Python is a programming language used for building software, automation, AI, and web applications."},
+{"input":"Why is Python popular?","output":"Because it is simple, readable, and powerful for many types of development."},
+
+{"input":"Write a Python code to print Hello","output":"print('Hello')"},
+{"input":"Write Python to add two numbers","output":"a = 5\nb = 3\nprint(a + b)"},
+{"input":"Write Python to check if number is even","output":"num = 4\nif num % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')"},
+{"input":"Write Python loop from 1 to 5","output":"for i in range(1, 6):\n    print(i)"},
+
+{"input":"What is a variable?","output":"A variable is a container used to store data in a program."},
+{"input":"Why are variables important?","output":"They allow programs to store and reuse information."},
+{"input":"What is a function?","output":"A function is a reusable block of code that performs a specific task."},
+{"input":"Why use functions?","output":"They reduce repetition and improve code organization."},
+
+{"input":"What is debugging?","output":"Debugging is finding and fixing errors in code."},
+{"input":"Why does code fail?","output":"Because of syntax errors, logic errors, or incorrect assumptions."},
+{"input":"What is syntax error?","output":"A syntax error happens when code breaks language rules."},
+{"input":"What is logic error?","output":"A logic error happens when code runs but gives wrong results."},
+
+{"input":"How do you think like a programmer?","output":"Break problems into steps, then convert each step into instructions."},
+{"input":"What is algorithm thinking?","output":"It is solving problems step-by-step in a logical sequence."},
+{"input":"How to solve problems in code?","output":"Understand the problem, break it into steps, write logic, then test it."},
+
+{"input":"What is input in programming?","output":"Input is data given to a program."},
+{"input":"What is output?","output":"Output is the result produced by a program."},
+
+{"input":"Write Python to take user input","output":"name = input('Enter your name: ')\nprint(name)"},
+{"input":"Write Python to multiply numbers","output":"a = 2\nb = 4\nprint(a * b)"},
+{"input":"Write Python to find largest number","output":"a = 10\nb = 20\nif a > b:\n    print(a)\nelse:\n    print(b)"},
+
+{"input":"What is a loop?","output":"A loop is a structure that repeats code multiple times."},
+{"input":"Why use loops?","output":"To avoid repeating code manually."},
+
+{"input":"What is condition in programming?","output":"A condition is a rule that decides which code runs."},
+{"input":"What is if statement?","output":"An if statement executes code only when a condition is true."},
+
+{"input":"What is an error?","output":"An error is a problem that stops code from running correctly."},
+{"input":"How do programmers handle errors?","output":"They debug, test, and fix the code step by step."},
+
+{"input":"What is logic in coding?","output":"Logic is the sequence of steps that produces correct results."},
+{"input":"Why is logic more important than syntax?","output":"Because correct logic ensures correct results even if syntax changes."},
+
+{"input":"What is computational thinking?","output":"It is solving problems in a way a computer can execute."},
+{"input":"What is decomposition?","output":"Breaking a problem into smaller manageable parts."},
+{"input":"What is pattern recognition in coding?","output":"Identifying repeated structures in problems or data."},
+
+{"input":"What is automation?","output":"Automation is using code to perform tasks automatically."},
+{"input":"Why is automation powerful?","output":"It saves time and reduces human effort."},
+
+{"input":"What is scalability in software?","output":"It is the ability of software to handle increasing workload."},
+{"input":"What is efficiency in code?","output":"Efficient code uses fewer resources and runs faster."},
+
+{"input":"What is clean code?","output":"Code that is easy to read, understand, and maintain."},
+{"input":"Why write clean code?","output":"It reduces bugs and improves collaboration."},
+
+{"input":"What is testing in programming?","output":"Testing is checking if code works correctly under different conditions."},
+{"input":"What is input validation?","output":"Ensuring user input is correct and safe before processing."},
+
+{"input":"What is algorithm?","output":"An algorithm is a step-by-step solution to a problem."},
+{"input":"Example of algorithm thinking","output":"To make tea: boil water → add tea → add sugar → serve."},
+
+{"input":"What is recursion?","output":"Recursion is when a function calls itself to solve a problem."},
+{"input":"Why use recursion?","output":"To solve problems that repeat in smaller forms."},
+
+{"input":"What is data structure?","output":"A way of organizing data for efficient use."},
+{"input":"Why are data structures important?","output":"They improve performance and organization of data."},
+
+{"input":"What is list in Python?","output":"A list is a collection of items stored in order."},
+{"input":"Example of list","output":"items = [1, 2, 3, 4]"},
+{"input":"What is dictionary in Python?","output":"A dictionary stores data in key-value pairs."},
+
+{"input":"What is AI in programming?","output":"AI is software that performs tasks that normally require human intelligence."},
+{"input":"How is AI built?","output":"By training models on data to recognize patterns and make decisions."},
+
+{"input":"What is machine learning?","output":"Machine learning is a method where systems learn from data automatically."},
+{"input":"Why is machine learning useful?","output":"It allows systems to improve without explicit programming."},
+
+{"input":"What is logic building?","output":"Logic building is structuring steps to solve a problem correctly."},
+{"input":"Why do programmers think in steps?","output":"Because computers execute instructions sequentially."},
+
+{"input":"What is pseudocode?","output":"Pseudocode is writing logic in plain language before coding."},
+{"input":"Why use pseudocode?","output":"It helps plan solutions before writing real code."},
+
+{"input":"What is runtime?","output":"Runtime is when a program is executing."},
+{"input":"What is compile time?","output":"Compile time is when code is being translated into executable form."},
 ]
