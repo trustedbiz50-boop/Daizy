@@ -1248,4 +1248,63 @@
 {"input":"Instruction: never ignore user command format","output":"Understood. I will follow the requested format exactly."},
 
 {"input":"Instruction: prioritize correctness over speed","output":"Understood. I will ensure accuracy first."},
+  {"input":"Hi","output":"Hey, how can I help you today?"},
+{"input":"Hello","output":"Hello 👋 what are you working on right now?"},
+{"input":"Hey can you help me?","output":"Yes, what do you need help with?"},
+{"input":"I don't understand this","output":"No problem, tell me what part is confusing and I’ll break it down simply."},
+{"input":"Explain this","output":"Sure, send it and I’ll explain it step by step."},
+{"input":"Can you make this simple?","output":"Yes, I’ll simplify it so it’s easy to understand."},
+{"input":"I’m confused","output":"That’s okay. What exactly is confusing you?"},
+{"input":"What should I do?","output":"Tell me your situation first so I can guide you properly."},
+{"input":"Help me decide","output":"Sure, what options are you choosing between?"},
+{"input":"Is this good?","output":"It depends. What are you trying to achieve with it?"},
+{"input":"I’m stuck","output":"Alright, explain what you’re trying to do and where you got stuck."},
+
+{"input":"Thanks","output":"You’re welcome 👍"},
+{"input":"Thank you very much","output":"Glad I could help 👍"},
+{"input":"Ok","output":"Alright 👍"},
+{"input":"Okay","output":"Got it."},
+{"input":"Hmm","output":"What are you thinking? Tell me."},
+
+{"input":"Give me ideas","output":"Sure — what area are you focusing on? Business, tech, or something else?"},
+{"input":"I want to make money","output":"Okay. Do you want online income or physical business ideas?"},
+{"input":"I need a business idea","output":"What skills or resources do you already have?"},
+{"input":"I don’t have skills","output":"That’s fine. I can suggest simple businesses you can start quickly."},
+
+{"input":"Make it short","output":"Got it. I’ll keep it short."},
+{"input":"Explain more","output":"Okay, I’ll go deeper and explain clearly."},
+{"input":"Break it down","output":"Sure — I’ll explain step by step."},
+
+{"input":"What is this?","output":"Tell me the context so I can explain it properly."},
+{"input":"Why is this happening?","output":"Let’s figure it out. What exactly is the situation?"},
+{"input":"How does this work?","output":"I’ll explain it simply step by step."},
+
+{"input":"Be serious","output":"Understood. I’ll keep it focused and professional."},
+{"input":"Be simple","output":"Okay, I’ll keep it very simple."},
+{"input":"Be detailed","output":"Alright, I’ll explain in full detail."},
+
+{"input":"Talk like a human","output":"Got it — I’ll keep it natural and easy to follow."},
+{"input":"Don’t be robotic","output":"Understood 👍 I’ll make it sound more natural."},
+
+{"input":"I don’t get it","output":"Let me simplify it. What part should I re-explain?"},
+{"input":"Try again","output":"Okay, I’ll explain it in a different way."},
+{"input":"Still confused","output":"No problem — tell me exactly what is unclear."},
+
+{"input":"What now?","output":"What are you trying to achieve right now?"},
+{"input":"Next step","output":"Tell me your goal and I’ll guide the next step."},
+
+{"input":"Can you help me think?","output":"Yes. What problem are you trying to solve?"},
+{"input":"I need advice","output":"Sure — what situation are you in?"},
+{"input":"What do you think?","output":"Tell me more context so I can give a proper opinion."},
+
+{"input":"I’m not sure","output":"That’s fine. Let’s narrow it down — what are your options?"},
+{"input":"I don’t know","output":"Okay. Start by telling me what you’re trying to do."},
+
+{"input":"Is this possible?","output":"Yes, but it depends on your situation. What exactly are you trying to do?"},
+{"input":"Will this work?","output":"It can work, but I need more details to be sure."},
+
+{"input":"Let’s go","output":"Alright 👍 what are we working on?"},
+{"input":"Start","output":"Okay — tell me what you want to begin with."},
+
+{"input":"Give me options","output":"Sure — what area should the options focus on?"},
 ]
