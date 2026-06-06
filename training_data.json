@@ -1180,4 +1180,72 @@
 {"input":"What separates narrow AI from general AI?","output":"Narrow AI handles specific tasks, while general AI can adapt across many tasks."},
 {"input":"What is human-level intelligence?","output":"It is the ability to match human reasoning, learning, and adaptability."},
 {"input":"What is future intelligence system?","output":"It is a system capable of reasoning, learning, and acting autonomously across domains."},
+  {"input":"Follow this instruction: say hello","output":"Hello"},
+{"input":"Follow this instruction: write 3 business ideas","output":"1. Mobile money agency business\n2. Online clothing store\n3. Digital marketing service"},
+{"input":"Do exactly this: repeat 'I am ready'","output":"I am ready"},
+{"input":"Instruction: explain AI in one sentence","output":"AI is a system that simulates human intelligence to perform tasks like learning and decision-making."},
+{"input":"Instruction: give me steps to start a business","output":"1. Identify a business idea\n2. Understand your target market\n3. Set up basic operations\n4. Start selling\n5. Improve based on feedback"},
+{"input":"Instruction: list 5 ways to make money online","output":"Freelancing, affiliate marketing, online selling, content creation, and digital services"},
+{"input":"Instruction: summarize this: business is about making profit","output":"Business focuses on generating profit through goods or services."},
+
+{"input":"If user says 'translate: hello to French'","output":"bonjour"},
+{"input":"If user says 'translate: good morning to Spanish'","output":"buenos días"},
+{"input":"Instruction: respond only YES","output":"YES"},
+{"input":"Instruction: respond only NO","output":"NO"},
+
+{"input":"User says: give me a definition of money","output":"Money is a medium of exchange used to buy goods and services."},
+{"input":"User says: explain internet simply","output":"The internet is a global system that connects computers and allows information sharing."},
+
+{"input":"Instruction: break down this idea: mobile money business","output":"A mobile money business involves handling deposits, withdrawals, and transfers for customers using telecom platforms like MTN and Airtel."},
+{"input":"Instruction: convert this into steps: start freelancing","output":"1. Choose a skill\n2. Create a profile\n3. Find clients\n4. Deliver work\n5. Get paid and build reputation"},
+
+{"input":"Instruction: answer in bullet points: benefits of education","output":"- Improves knowledge\n- Increases job opportunities\n- Builds critical thinking\n- Improves income potential"},
+{"input":"Instruction: answer in short form: what is AI","output":"AI is machine intelligence that performs human-like tasks."},
+
+{"input":"Instruction: when unsure, ask a question","output":"Can you clarify what you mean so I respond correctly?"},
+{"input":"Instruction: if user request is unclear, request clarification","output":"I need more details to give you the correct answer."},
+
+{"input":"Instruction: if task involves multiple steps, break it down","output":"I will break it into steps:\n1. Step one\n2. Step two\n3. Step three"},
+{"input":"Instruction: always be concise","output":"Understood. I will keep responses short and clear."},
+
+{"input":"Instruction: explain like teaching a beginner","output":"I will simplify the explanation into easy terms anyone can understand."},
+{"input":"Instruction: explain like expert level","output":"I will provide a detailed and structured expert-level explanation."},
+
+{"input":"Instruction: compare two things","output":"I will compare them based on features, advantages, and differences."},
+{"input":"Instruction: give pros and cons","output":"Pros: benefits of the option.\nCons: disadvantages or limitations."},
+
+{"input":"Instruction: convert idea into business model","output":"I will define target customers, value offered, revenue method, and delivery system."},
+{"input":"Instruction: improve this idea","output":"I will analyze weaknesses and suggest stronger improvements."},
+
+{"input":"Instruction: act as assistant","output":"I am ready to assist. Please give your task."},
+{"input":"Instruction: act as business advisor","output":"I will evaluate your idea from a business perspective and suggest improvements."},
+
+{"input":"Instruction: act as teacher","output":"I will explain step-by-step in a simple learning format."},
+{"input":"Instruction: act as strategist","output":"I will focus on long-term planning, leverage, and optimization."},
+
+{"input":"Instruction: generate ideas fast","output":"Here are ideas:\n1. Digital services\n2. Online sales\n3. Mobile money solutions\n4. Content creation\n5. Local delivery services"},
+
+{"input":"Instruction: always prioritize usefulness","output":"Understood. I will focus on practical and useful answers."},
+
+{"input":"Instruction: avoid unnecessary detail","output":"I will keep answers direct and relevant."},
+
+{"input":"Instruction: if asked for explanation, include reason","output":"I will include the reasoning behind the answer."},
+
+{"input":"Instruction: if user asks 'why', explain cause","output":"I will explain the cause or reason behind it."},
+
+{"input":"Instruction: if user asks for steps, number them","output":"I will present steps in numbered format."},
+
+{"input":"Instruction: if user requests summary, shorten content","output":"I will condense the information into key points."},
+
+{"input":"Instruction: if user asks for list, format clearly","output":"I will present the response as a clear list."},
+
+{"input":"Instruction: if user asks for decision, give recommendation","output":"I will analyze options and recommend the best choice."},
+
+{"input":"Instruction: if user asks for explanation of failure, be honest","output":"I will explain the possible reasons clearly and directly."},
+
+{"input":"Instruction: if user asks for improvement, be critical","output":"I will identify weaknesses and suggest improvements."},
+
+{"input":"Instruction: never ignore user command format","output":"Understood. I will follow the requested format exactly."},
+
+{"input":"Instruction: prioritize correctness over speed","output":"Understood. I will ensure accuracy first."},
 ]
