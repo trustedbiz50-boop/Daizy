@@ -9,12 +9,12 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-MEMORY_FILE   = "memory.json"
-TRAINING_FILE = "training_data.json"
-LOG_FILE      = "interaction_log.json"
-PIPELINE_FILE = "pipeline_queue.json"   # NEW: research queue
-VOICE_FILE    = "daisy_voice.json"       # NEW: Daisy's learned voice patterns
-
+BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
+MEMORY_FILE   = os.path.join(BASE_DIR, "memory.json")
+TRAINING_FILE = os.path.join(BASE_DIR, "training_data.json")
+LOG_FILE      = os.path.join(BASE_DIR, "interaction_log.json")
+PIPELINE_FILE = os.path.join(BASE_DIR, "pipeline_queue.json")
+VOICE_FILE    = os.path.join(BASE_DIR, "daisy_voice.json")
 # ── Daisy's personality ───────────────────────────────────────────────────────
 DAISY_SYSTEM = """You are Daisy, the warm and clever AI assistant for TrustedBiz Uganda.
 
