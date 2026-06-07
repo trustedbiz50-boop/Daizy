@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const DAISY_URL = "https://daizy.onrender.com"; // change to your URL
+const DAISY_URL = "https://daizy-l1aq.onrender.com"; // change to your URL
 
 const tabs = ["Brain", "Research", "Pipeline", "Speak", "Promote"];
 
